@@ -6,33 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Task 2: Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="nav">
-            <div class="nav__logo">
-                <p>Header Logo</p>
-            </div>
+        <div class="container">
 
-            <div class="nav__links">
-                <a href="#" class="nav__link">header link one</a>
-                <a href="#" class="nav__link">header link two</a>
-                <a href="#" class="nav__link">header link three</a>
-            </div>
-        </nav>
+            <nav class="header__container">
+                <div class="header__logo">
+                    <p>Header Logo</p>
+                </div>
+
+                <div class="header__links">
+                    <a href="#" class="header__link">header link one</a>
+                    <a href="#" class="header__link">header link two</a>
+                    <a href="#" class="header__link">header link three</a>
+                </div>
+            </nav>
+        </div>
     </header>
     <main class="main">
         <section class="introduction">
             <div class="container">
-                <div class="intoduction__info">
+                <div class="introduction__container">
+                    <div class="intoduction__info">
 
-                    <h1 class="introduction__title"> This website is awesome</h1>
-                    <p class="introduction__text text--white">This website has some subtext that goes here under the main title. It's a smaller font and color is lower contrast</p>
-                    <button class="btn btn--blue">Sign up</button>
-                </div>
-                <div class="introduction__img">
-                    this is a placeholder for an image
+                        <h1 class="introduction__title"> This website is awesome</h1>
+                        <p class="introduction__text text--white">This website has some subtext that goes here under the
+                            main title. It's a smaller font and color is lower contrast</p>
+                        <button class="btn btn--blue">Sign up</button>
+                    </div>
+                    <div class="introduction__img">
+                        this is a placeholder for an image
+                    </div>
                 </div>
             </div>
         </section>
@@ -63,7 +74,11 @@
         <section class="quote">
             <div class="container">
                 <figure class="quote__container">
-                    <blockquote><p class="quote__text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p></blockquote>
+                    <blockquote>
+                        <p class="quote__text">This is an inspiring quote, or a testimonial from a customer. Maybe it's
+                            just filling up space, or maybe people will actually read it. Who knows? All I know is that
+                            it looks nice.</p>
+                    </blockquote>
                     <figcaption class="quote__author">-Thor, God of Thunder</figcaption>
                 </figure>
             </div>
@@ -74,7 +89,8 @@
                 <div class="cta__container">
                     <div class="cta__info">
                         <h3 class="cta__title">Call to action! It's time!</h3>
-                        <p class="cta__text text--white">Sign up for our product by clicking that button right over there</p>
+                        <p class="cta__text text--white">Sign up for our product by clicking that button right over
+                            there</p>
                     </div>
                     <button class="cta__btn btn btn--outline">Sign up</button>
                 </div>
