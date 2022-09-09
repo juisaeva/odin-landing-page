@@ -22,6 +22,43 @@ body {
     color: #1f2937;
 }
 
+
+.btn {
+    border: none;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 15px 50px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 20px;
+}
+
+.btn--blue {
+    background-color: #3883F6;
+}
+
+.btn--blue:hover,
+.btn--blue:focus,
+.btn--blue:active {
+    transform: translateY(-2px);
+    background-color: #1c56ac;
+}
+
+.btn--outline {
+    background-color: transparent;
+    outline: 3px solid #e5e7eb;
+    transition: all .2s;
+}
+
+.btn--outline:hover,
+.btn--outline:focus,
+.btn--outline:active {
+
+    transform: translateY(-2px);
+    background-color: #1c56ac;
+}
+
 .header {
     background-color: #1f2937;
     padding: 15px 0;
@@ -49,12 +86,14 @@ body {
 .header__link {
     color: #e5e7eb;
     text-decoration: none;
+    transition: all 0.2s;
 }
 
 .header__link:hover,
 .header__link:focus,
 .header__link:active {
     color: #3883F6;
+    transform: translateY(-2px);
 }
 
 .introduction {
@@ -66,15 +105,99 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 1 1 auto;
 }
 
-.introduction__info{
-    
+.introduction__info {
+    width: 430px;
+}
+
+.introduction__img {
+    width: 520px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .introduction__title {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.introduction__text {
+    margin-bottom: 20px;
+}
+
+
+.info {
+    padding: 60px 0 120px;
+    text-align: center;
+}
+
+.info__title {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.info__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.info__img {
+    border: 5px solid #3883F6;
+    height: 210px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 130px 0;
+
+}
+
+.quote__text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.quote__author {
+    text-align: right;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.cta {
+    padding: 100px;
+}
+
+.cta__container {
+    background-color: #3883F6;
+    padding: 60px 150px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta__title {
+    color: #e5e7eb;
+    font-size: 28px;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 60px 0;
 }
